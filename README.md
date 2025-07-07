@@ -27,6 +27,11 @@
      ```sh
      dotnet run
      ```
+     - **Миграции** :
+     ```sh
+     cd Back
+     dotnet ef database update
+     ```
 
 4. **Frontend (Vue 3):**
    - Перейти в папку `Front`
