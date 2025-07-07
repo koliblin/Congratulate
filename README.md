@@ -22,10 +22,10 @@
    ```
 
 3. **Backend (ASP.NET Core):**
-   - Перейти в папку `Back/Congratulate.API`
    - Запустить:
      ```sh
-     dotnet run
+     cd Back
+     dotnet run --project Congratulate.API
      ```
      - **Миграции** :
      ```sh
@@ -34,9 +34,9 @@
      ```
 
 4. **Frontend (Vue 3):**
-   - Перейти в папку `Front`
    - Установить зависимости:
      ```sh
+     cd Front
      npm install
      ```
    - Запустить dev-сервер:
