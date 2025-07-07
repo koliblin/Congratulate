@@ -29,7 +29,6 @@
      ```
      - **Миграции** :
      ```sh
-     cd Back
      dotnet ef database update
      ```
 
